@@ -36,4 +36,7 @@ function resetTimer() {
 
 
 export { startTimer, stopTimer, resetTimer };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 981ae4250530d7570e75515736b1348e599706c3
