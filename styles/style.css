@@ -1,11 +1,39 @@
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.timer-container {
+    text-align: center;
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
 }
 
-body {
-    background-color: #000;
+.timer {
+  
+    margin-bottom: 10px; 
+}
+
+
+.buttons {
+
+    margin-top: 10px; 
+}
+
+
+.button {
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#minuteBlock {
+    color: blueviolet;
+}
+
+#secondBlock {
+    color: blue;
+}
+
+#millisecondBlock {
+    color: red;
 }
