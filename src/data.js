@@ -1,7 +1,9 @@
-var minutes = 0;
-var seconds = 0;
-var milliseconds = 0;
-
-const data = {minutes, seconds, milliseconds};
-
-export default data;
+const data = {
+    minutes: 0,
+    seconds: 0,
+    milliseconds: 0,
+    timerInterval: null,
+  };
+  
+  export default data;
+  
