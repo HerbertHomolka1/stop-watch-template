@@ -1,5 +1,7 @@
 import dom from '../dom.js';
-import { startTimer, stopTimer, resetTimer } from '../handlers/handlers.js';
+import stopTimer from '../handlers/stopTimer.js';
+import startTimer from '../handlers/startTimer.js';
+import resetTimer from '../handlers/resetTimer.js';
 
 
 dom.startTimerBlock.addEventListener('click', startTimer);
